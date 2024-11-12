@@ -1,0 +1,186 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body{
+    background: black;
+    color: beige;
+transition: background-color 0.8s ease-in-out , color 1s ease-in-out;
+animation-duration: 3s;
+animation-name: deslizedoPP;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px;
+    background-color: rgb(73, 71, 71);
+
+}
+header button{
+    background-color: white;
+    color:black;
+    border:none;
+    border-radius: 5px ;
+    padding: 10px 20px ;
+    cursor: pointer;
+}
+section{
+    padding: auto 20px;
+    margin:20px auto ;
+    height: 100vh;
+    width: 70%;
+}
+
+#sobre div{
+    width: 50%;
+}
+#sobe img{
+    height: 400px;
+}
+#sobre{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+h2{
+    margin-bottom: 10px;
+    font-size: 2.6em;
+}
+h3{
+    margin-bottom: 20px;
+    font-size: 2em;
+}
+.projeto{
+    background-color: rgb(35, 34, 34);
+    padding: 20px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+img{
+    border-radius:9% ;
+   
+}
+
+.box{
+    border-radius:  15%;
+    margin-left: 20px;
+    border-top: 20px #1ea7cc solid;
+    border-bottom: 15px #3ebdd9 solid;
+    border-left: 20px#5fd3e6 solid;
+    border-right:15px  #7fe9f2 solid;
+    
+  
+    
+}
+
+mark{
+    background-color:  white;
+    border-radius: 15%;
+}
+.projeto:hover{
+    box-shadow: 1px 1px 1px 1px white;
+
+}
+
+.projeto p a {
+    color: white;
+}
+
+
+button:hover{
+    transform: scale(1.10);
+
+}
+
+button{
+    transition: 0.3s;
+
+}
+
+
+
+/* modo escuro */
+.dark-mode{
+    background-color: white;
+    color: black;
+}
+.dark-mode header button{
+background-color: black;
+color:white;
+
+}
+.dark-mode .projeto{
+        background-color: rgb(35, 34, 34);
+        color: white;
+
+
+}
+/* animaçao */
+@keyframes deslizedoPP {
+    from {
+        margin-top: 100%;
+        width: 300%;
+    }
+    to {
+        margin-top: 0%;
+        width: 100%;
+    }
+}
+
+/* responsivel */
+@media (max-width:480px){
+
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: 0;
+    }
+    body{
+        margin: 0;
+    
+    }
+    img{
+        height: 300px;
+        width: 200px;
+    }
+    h1, h2, h3, p{
+margin-right: 10px;
+        font-size: 1.2em;
+        
+    }
+    
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
