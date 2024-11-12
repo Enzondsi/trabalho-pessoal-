@@ -133,6 +133,7 @@ color:white;
 }
 
 /* responsivel */
+/* responsivel */
 @media (max-width:480px){
 
     *{
@@ -145,9 +146,15 @@ color:white;
     
     }
     img{
-        height: 300px;
-        width: 200px;
+        height: 100px;
+        width: 100px;
     }
+    .box{
+        height: 140px;
+        width: 100px;
+    }
+    
+
     h1, h2, h3, p{
 margin-right: 10px;
         font-size: 1.2em;
